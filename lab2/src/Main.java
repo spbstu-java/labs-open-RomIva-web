@@ -13,6 +13,6 @@ public class Main {
         System.out.println();
         
         System.out.println("Вызов аннотированных методов через рефлексию:");
-        Invoker.invokeAnnotatedMethods(testObject);
+        Invoker.invokeProtectedAndPrivateMethods(testObject);
     }
 }
